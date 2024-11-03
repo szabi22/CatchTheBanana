@@ -1,0 +1,8 @@
+1. nezseg allitasa nyomogombbal
+-kijelzo
+-nyomogomb erzekeles
+2. banan hullas
+-timer kezeles
+-kijelzo
+3. kosar mozgatas
+4.pontszam megjelenites
