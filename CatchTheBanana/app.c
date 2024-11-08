@@ -18,8 +18,20 @@
 /***************************************************************************//**
  * Initialize application.
  ******************************************************************************/
+#ifndef SCORE_H
+#define SCORE_H
+
+#include <stdint.h>
+#include <stdio.h>
+#include "segmentlcd.h"
+#include "score.h"
+
+
 void app_init(void)
 {
+  /* Enable LCD without voltage boost */
+    SegmentLCD_Init(false);
+    //SegmentLCD_Write("Hello");
 }
 
 /***************************************************************************//**
@@ -27,4 +39,8 @@ void app_init(void)
  ******************************************************************************/
 void app_process_action(void)
 {
+  calculate_score();
 }
+
+
+#endif // SCORE_H

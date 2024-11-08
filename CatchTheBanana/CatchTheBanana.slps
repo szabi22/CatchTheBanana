@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
   <descriptors name="CatchTheBanana">
-    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.4.4._2053829960"/>
+    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.4.4._1841066938"/>
     <properties key="universalConfig.relativeWorkspacePath" value="..\CatchTheBanana.slcw"/>
     <properties key="universalConfig.generationDirectory" value=""/>
     <properties key="universalConfig.toolchainCompatibility" value="iar gcc"/>
