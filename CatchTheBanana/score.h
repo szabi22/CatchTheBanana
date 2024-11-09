@@ -1,2 +1,2 @@
-int calculate_score(void);
-void updateScore(uint8_t fallen, uint8_t caught);
+void calculate_score(int[7], int, int, int);
+void updateScore(int fallen, int caught);
