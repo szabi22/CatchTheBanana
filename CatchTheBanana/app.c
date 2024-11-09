@@ -31,7 +31,7 @@ void app_init(void)
 {
   /* Enable LCD without voltage boost */
     SegmentLCD_Init(false);
-    //SegmentLCD_Write("Hello");
+    SegmentLCD_Write("Hello");
 }
 
 /***************************************************************************//**
