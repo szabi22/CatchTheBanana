@@ -25,7 +25,11 @@
 #include <stdio.h>
 #include "segmentlcd.h"
 #include "score.h"
+#include "display.h"
+#include "segmentlcd_individual.h"
+#include "bin.h"
 
+volatile SegmentLCD_LowerCharSegments_TypeDef lowerCharSegments[SEGMENT_LCD_NUM_OF_LOWER_CHARS];
 
 void app_init(void)
 {
@@ -40,6 +44,11 @@ void app_init(void)
 void app_process_action(void)
 {
   calculate_score();
+
+  //display_banana();
+  //display_difficulty();
+  //display_score();
+
 }
 
 

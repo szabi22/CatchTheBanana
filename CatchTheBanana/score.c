@@ -2,9 +2,11 @@
 #include <stdio.h>
 #include "score.h"
 #include <segmentlcd.h>
+#include <segmentlcd_individual.h>
 
 bool app_lcd_symbol_on = true;
 
+volatile SegmentLCD_LowerCharSegments_TypeDef lowerCharSegments[SEGMENT_LCD_NUM_OF_LOWER_CHARS];
 
 // Function to update the score on the LCD
 void updateScore(uint8_t fallen, uint8_t caught) {
@@ -19,6 +21,7 @@ void updateScore(uint8_t fallen, uint8_t caught) {
     // Display the score on the LCD
     //SegmentLCD_Write(scoreStr);
     SegmentLCD_Number(scoreNr);
+    SegmentLCD_LowerSegments(lowerCharSegments);
 }
 
 int calculate_score(void) {
@@ -29,6 +32,7 @@ int calculate_score(void) {
 //    while (true) {
 //        // Simulate gameplay update
         updateScore(fallen, caught);
+        lowerCharSegments[1].d = 1;
 //
 //        // Logic for PB0/PB1 for scoring updates
 //        if (/* fallen condition */) {
