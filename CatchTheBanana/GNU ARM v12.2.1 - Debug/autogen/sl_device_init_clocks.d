@@ -64,8 +64,8 @@ autogen/sl_device_init_clocks.o: ../autogen/sl_device_init_clocks.c \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\autogen/sl_component_catalog.h \
- C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\config/emlib_core_debug_config.h \
+ C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\autogen/sl_component_catalog.h \
+ C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/emlib_core_debug_config.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
@@ -135,8 +135,8 @@ c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\autogen/sl_component_catalog.h:
-C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\config/emlib_core_debug_config.h:
+C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\autogen/sl_component_catalog.h:
+C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/emlib_core_debug_config.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:

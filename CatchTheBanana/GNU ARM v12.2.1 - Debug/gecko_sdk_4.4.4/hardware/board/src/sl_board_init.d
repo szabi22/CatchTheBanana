@@ -4,7 +4,7 @@ gecko_sdk_4.4.4/hardware/board/src/sl_board_init.o: \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
- C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\config/sl_board_control_config.h \
+ C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/sl_board_control_config.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\em_device.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg990f1024.h \
@@ -67,8 +67,8 @@ gecko_sdk_4.4.4/hardware/board/src/sl_board_init.o: \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\autogen/sl_component_catalog.h \
- C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\config/emlib_core_debug_config.h \
+ C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\autogen/sl_component_catalog.h \
+ C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/emlib_core_debug_config.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h
@@ -76,7 +76,7 @@ c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
-C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\config/sl_board_control_config.h:
+C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/sl_board_control_config.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\em_device.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg990f1024.h:
@@ -139,8 +139,8 @@ c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\autogen/sl_component_catalog.h:
-C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\config/emlib_core_debug_config.h:
+C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\autogen/sl_component_catalog.h:
+C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/emlib_core_debug_config.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h:

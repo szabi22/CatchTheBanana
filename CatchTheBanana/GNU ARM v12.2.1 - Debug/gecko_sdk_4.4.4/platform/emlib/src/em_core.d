@@ -60,8 +60,8 @@ gecko_sdk_4.4.4/platform/emlib/src/em_core.o: \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\autogen/sl_component_catalog.h \
- C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\config/emlib_core_debug_config.h \
+ C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\autogen/sl_component_catalog.h \
+ C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/emlib_core_debug_config.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
@@ -123,6 +123,6 @@ c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\autogen/sl_component_catalog.h:
-C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\config/emlib_core_debug_config.h:
+C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\autogen/sl_component_catalog.h:
+C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/emlib_core_debug_config.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:

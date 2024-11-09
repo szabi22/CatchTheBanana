@@ -383,7 +383,7 @@ Discarded input sections
                 0x00000000       0x60 ./gecko_sdk_4.4.4/platform/emlib/src/em_gpio.o
  .debug_ranges  0x00000000      0x120 ./gecko_sdk_4.4.4/platform/emlib/src/em_gpio.o
  .debug_line    0x00000000      0x713 ./gecko_sdk_4.4.4/platform/emlib/src/em_gpio.o
- .debug_str     0x00000000      0x604 ./gecko_sdk_4.4.4/platform/emlib/src/em_gpio.o
+ .debug_str     0x00000000      0x613 ./gecko_sdk_4.4.4/platform/emlib/src/em_gpio.o
  .comment       0x00000000       0x46 ./gecko_sdk_4.4.4/platform/emlib/src/em_gpio.o
  .debug_frame   0x00000000      0x134 ./gecko_sdk_4.4.4/platform/emlib/src/em_gpio.o
  .ARM.attributes
@@ -436,7 +436,7 @@ Discarded input sections
                 0x00000000       0x68 ./gecko_sdk_4.4.4/platform/emlib/src/em_msc.o
  .debug_ranges  0x00000000       0x58 ./gecko_sdk_4.4.4/platform/emlib/src/em_msc.o
  .debug_line    0x00000000      0x8fd ./gecko_sdk_4.4.4/platform/emlib/src/em_msc.o
- .debug_str     0x00000000      0x715 ./gecko_sdk_4.4.4/platform/emlib/src/em_msc.o
+ .debug_str     0x00000000      0x724 ./gecko_sdk_4.4.4/platform/emlib/src/em_msc.o
  .comment       0x00000000       0x46 ./gecko_sdk_4.4.4/platform/emlib/src/em_msc.o
  .debug_frame   0x00000000       0xf4 ./gecko_sdk_4.4.4/platform/emlib/src/em_msc.o
  .ARM.attributes
@@ -1514,84 +1514,84 @@ LOAD linker stubs
  .debug_ranges  0x00000c70       0x10 ./gecko_sdk_4.4.4/platform/service/system/src/sl_system_init.o
  .debug_ranges  0x00000c80       0x10 ./gecko_sdk_4.4.4/platform/service/system/src/sl_system_process_action.o
 
-.debug_line     0x00000000     0x7a18
+.debug_line     0x00000000     0x7a45
  .debug_line    0x00000000       0x72 ./app.o
  .debug_line    0x00000072       0xe2 ./main.o
- .debug_line    0x00000154      0x1d5 ./score.o
- .debug_line    0x00000329      0xbfc ./segmentlcd.o
- .debug_line    0x00000f25       0x55 ./autogen/sl_board_default_init.o
- .debug_line    0x00000f7a      0x292 ./autogen/sl_device_init_clocks.o
- .debug_line    0x0000120c      0x49a ./autogen/sl_event_handler.o
- .debug_line    0x000016a6      0x448 ./gecko_sdk_4.4.4/hardware/board/src/sl_board_control_gpio.o
- .debug_line    0x00001aee      0x1f0 ./gecko_sdk_4.4.4/hardware/board/src/sl_board_init.o
- .debug_line    0x00001cde      0x2eb ./gecko_sdk_4.4.4/platform/Device/SiliconLabs/EFM32GG/Source/startup_efm32gg.o
- .debug_line    0x00001fc9      0x45c ./gecko_sdk_4.4.4/platform/Device/SiliconLabs/EFM32GG/Source/system_efm32gg.o
- .debug_line    0x00002425       0xa1 ./gecko_sdk_4.4.4/platform/common/src/sl_assert.o
- .debug_line    0x000024c6      0x1a1 ./gecko_sdk_4.4.4/platform/common/src/sl_syscalls.o
- .debug_line    0x00002667      0x2ea ./gecko_sdk_4.4.4/platform/common/toolchain/src/sl_memory.o
- .debug_line    0x00002951     0x1d6e ./gecko_sdk_4.4.4/platform/emlib/src/em_cmu.o
- .debug_line    0x000046bf      0xa59 ./gecko_sdk_4.4.4/platform/emlib/src/em_core.o
- .debug_line    0x00005118      0xc10 ./gecko_sdk_4.4.4/platform/emlib/src/em_emu.o
- .debug_line    0x00005d28      0xb9c ./gecko_sdk_4.4.4/platform/emlib/src/em_lcd.o
- .debug_line    0x000068c4      0x4e1 ./gecko_sdk_4.4.4/platform/emlib/src/em_system.o
- .debug_line    0x00006da5      0x24a ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_emu_s0.o
- .debug_line    0x00006fef      0x2b8 ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_hfxo_s0.o
- .debug_line    0x000072a7      0x251 ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_lfxo_s0.o
- .debug_line    0x000074f8      0x32d ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_nvic.o
- .debug_line    0x00007825       0xf5 ./gecko_sdk_4.4.4/platform/service/system/src/sl_system_init.o
- .debug_line    0x0000791a       0xfe ./gecko_sdk_4.4.4/platform/service/system/src/sl_system_process_action.o
+ .debug_line    0x00000154      0x1e4 ./score.o
+ .debug_line    0x00000338      0xbfc ./segmentlcd.o
+ .debug_line    0x00000f34       0x55 ./autogen/sl_board_default_init.o
+ .debug_line    0x00000f89      0x292 ./autogen/sl_device_init_clocks.o
+ .debug_line    0x0000121b      0x49a ./autogen/sl_event_handler.o
+ .debug_line    0x000016b5      0x448 ./gecko_sdk_4.4.4/hardware/board/src/sl_board_control_gpio.o
+ .debug_line    0x00001afd      0x1f0 ./gecko_sdk_4.4.4/hardware/board/src/sl_board_init.o
+ .debug_line    0x00001ced      0x2eb ./gecko_sdk_4.4.4/platform/Device/SiliconLabs/EFM32GG/Source/startup_efm32gg.o
+ .debug_line    0x00001fd8      0x45c ./gecko_sdk_4.4.4/platform/Device/SiliconLabs/EFM32GG/Source/system_efm32gg.o
+ .debug_line    0x00002434       0xa1 ./gecko_sdk_4.4.4/platform/common/src/sl_assert.o
+ .debug_line    0x000024d5      0x1a1 ./gecko_sdk_4.4.4/platform/common/src/sl_syscalls.o
+ .debug_line    0x00002676      0x2ea ./gecko_sdk_4.4.4/platform/common/toolchain/src/sl_memory.o
+ .debug_line    0x00002960     0x1d6e ./gecko_sdk_4.4.4/platform/emlib/src/em_cmu.o
+ .debug_line    0x000046ce      0xa59 ./gecko_sdk_4.4.4/platform/emlib/src/em_core.o
+ .debug_line    0x00005127      0xc10 ./gecko_sdk_4.4.4/platform/emlib/src/em_emu.o
+ .debug_line    0x00005d37      0xb9c ./gecko_sdk_4.4.4/platform/emlib/src/em_lcd.o
+ .debug_line    0x000068d3      0x4e1 ./gecko_sdk_4.4.4/platform/emlib/src/em_system.o
+ .debug_line    0x00006db4      0x24a ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_emu_s0.o
+ .debug_line    0x00006ffe      0x2b8 ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_hfxo_s0.o
+ .debug_line    0x000072b6      0x251 ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_lfxo_s0.o
+ .debug_line    0x00007507      0x32d ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_nvic.o
+ .debug_line    0x00007834      0x104 ./gecko_sdk_4.4.4/platform/service/system/src/sl_system_init.o
+ .debug_line    0x00007938      0x10d ./gecko_sdk_4.4.4/platform/service/system/src/sl_system_process_action.o
 
-.debug_str      0x00000000     0x3ae5
- .debug_str     0x00000000      0x193 ./app.o
-                                0x1e8 (size before relaxing)
- .debug_str     0x00000193       0x37 ./main.o
-                                0x167 (size before relaxing)
- .debug_str     0x000001ca      0x185 ./score.o
-                                0x340 (size before relaxing)
- .debug_str     0x0000034f      0xbff ./segmentlcd.o
-                                0xf4b (size before relaxing)
- .debug_str     0x00000f4e       0x39 ./autogen/sl_board_default_init.o
-                                0x1d1 (size before relaxing)
- .debug_str     0x00000f87       0xec ./autogen/sl_device_init_clocks.o
-                                0x651 (size before relaxing)
- .debug_str     0x00001073      0x231 ./autogen/sl_event_handler.o
-                                0x440 (size before relaxing)
- .debug_str     0x000012a4      0x4c1 ./gecko_sdk_4.4.4/hardware/board/src/sl_board_control_gpio.o
-                                0x6c1 (size before relaxing)
- .debug_str     0x00001765       0x52 ./gecko_sdk_4.4.4/hardware/board/src/sl_board_init.o
-                                0x4c8 (size before relaxing)
- .debug_str     0x000017b7      0x161 ./gecko_sdk_4.4.4/platform/Device/SiliconLabs/EFM32GG/Source/startup_efm32gg.o
-                                0x314 (size before relaxing)
- .debug_str     0x00001918      0x216 ./gecko_sdk_4.4.4/platform/Device/SiliconLabs/EFM32GG/Source/system_efm32gg.o
-                                0x554 (size before relaxing)
- .debug_str     0x00001b2e       0x54 ./gecko_sdk_4.4.4/platform/common/src/sl_assert.o
-                                0x17c (size before relaxing)
- .debug_str     0x00001b82       0xae ./gecko_sdk_4.4.4/platform/common/src/sl_syscalls.o
-                                0x25c (size before relaxing)
- .debug_str     0x00001c30       0xf8 ./gecko_sdk_4.4.4/platform/common/toolchain/src/sl_memory.o
-                                0x2b6 (size before relaxing)
- .debug_str     0x00001d28      0xa36 ./gecko_sdk_4.4.4/platform/emlib/src/em_cmu.o
-                               0x134c (size before relaxing)
- .debug_str     0x0000275e      0x5ce ./gecko_sdk_4.4.4/platform/emlib/src/em_core.o
-                                0x89f (size before relaxing)
- .debug_str     0x00002d2c      0x522 ./gecko_sdk_4.4.4/platform/emlib/src/em_emu.o
-                                0xdc3 (size before relaxing)
- .debug_str     0x0000324e      0x338 ./gecko_sdk_4.4.4/platform/emlib/src/em_lcd.o
-                                0x9a1 (size before relaxing)
- .debug_str     0x00003586      0x21c ./gecko_sdk_4.4.4/platform/emlib/src/em_system.o
-                                0x748 (size before relaxing)
- .debug_str     0x000037a2       0x71 ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_emu_s0.o
-                                0x2cd (size before relaxing)
- .debug_str     0x00003813       0xbe ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_hfxo_s0.o
-                                0x33f (size before relaxing)
- .debug_str     0x000038d1       0xd0 ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_lfxo_s0.o
-                                0x39a (size before relaxing)
- .debug_str     0x000039a1       0x82 ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_nvic.o
-                                0x595 (size before relaxing)
- .debug_str     0x00003a23       0x5c ./gecko_sdk_4.4.4/platform/service/system/src/sl_system_init.o
-                                0x1d2 (size before relaxing)
- .debug_str     0x00003a7f       0x66 ./gecko_sdk_4.4.4/platform/service/system/src/sl_system_process_action.o
-                                0x1ff (size before relaxing)
+.debug_str      0x00000000     0x3af4
+ .debug_str     0x00000000      0x1a2 ./app.o
+                                0x1f7 (size before relaxing)
+ .debug_str     0x000001a2       0x37 ./main.o
+                                0x176 (size before relaxing)
+ .debug_str     0x000001d9      0x185 ./score.o
+                                0x34f (size before relaxing)
+ .debug_str     0x0000035e      0xbff ./segmentlcd.o
+                                0xf5a (size before relaxing)
+ .debug_str     0x00000f5d       0x39 ./autogen/sl_board_default_init.o
+                                0x1e0 (size before relaxing)
+ .debug_str     0x00000f96       0xec ./autogen/sl_device_init_clocks.o
+                                0x660 (size before relaxing)
+ .debug_str     0x00001082      0x231 ./autogen/sl_event_handler.o
+                                0x44f (size before relaxing)
+ .debug_str     0x000012b3      0x4c1 ./gecko_sdk_4.4.4/hardware/board/src/sl_board_control_gpio.o
+                                0x6d0 (size before relaxing)
+ .debug_str     0x00001774       0x52 ./gecko_sdk_4.4.4/hardware/board/src/sl_board_init.o
+                                0x4d7 (size before relaxing)
+ .debug_str     0x000017c6      0x161 ./gecko_sdk_4.4.4/platform/Device/SiliconLabs/EFM32GG/Source/startup_efm32gg.o
+                                0x323 (size before relaxing)
+ .debug_str     0x00001927      0x216 ./gecko_sdk_4.4.4/platform/Device/SiliconLabs/EFM32GG/Source/system_efm32gg.o
+                                0x563 (size before relaxing)
+ .debug_str     0x00001b3d       0x54 ./gecko_sdk_4.4.4/platform/common/src/sl_assert.o
+                                0x18b (size before relaxing)
+ .debug_str     0x00001b91       0xae ./gecko_sdk_4.4.4/platform/common/src/sl_syscalls.o
+                                0x26b (size before relaxing)
+ .debug_str     0x00001c3f       0xf8 ./gecko_sdk_4.4.4/platform/common/toolchain/src/sl_memory.o
+                                0x2c5 (size before relaxing)
+ .debug_str     0x00001d37      0xa36 ./gecko_sdk_4.4.4/platform/emlib/src/em_cmu.o
+                               0x135b (size before relaxing)
+ .debug_str     0x0000276d      0x5ce ./gecko_sdk_4.4.4/platform/emlib/src/em_core.o
+                                0x8ae (size before relaxing)
+ .debug_str     0x00002d3b      0x522 ./gecko_sdk_4.4.4/platform/emlib/src/em_emu.o
+                                0xdd2 (size before relaxing)
+ .debug_str     0x0000325d      0x338 ./gecko_sdk_4.4.4/platform/emlib/src/em_lcd.o
+                                0x9b0 (size before relaxing)
+ .debug_str     0x00003595      0x21c ./gecko_sdk_4.4.4/platform/emlib/src/em_system.o
+                                0x757 (size before relaxing)
+ .debug_str     0x000037b1       0x71 ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_emu_s0.o
+                                0x2dc (size before relaxing)
+ .debug_str     0x00003822       0xbe ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_hfxo_s0.o
+                                0x34e (size before relaxing)
+ .debug_str     0x000038e0       0xd0 ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_lfxo_s0.o
+                                0x3a9 (size before relaxing)
+ .debug_str     0x000039b0       0x82 ./gecko_sdk_4.4.4/platform/service/device_init/src/sl_device_init_nvic.o
+                                0x5a4 (size before relaxing)
+ .debug_str     0x00003a32       0x5c ./gecko_sdk_4.4.4/platform/service/system/src/sl_system_init.o
+                                0x1e1 (size before relaxing)
+ .debug_str     0x00003a8e       0x66 ./gecko_sdk_4.4.4/platform/service/system/src/sl_system_process_action.o
+                                0x20e (size before relaxing)
 
 .debug_frame    0x00000000     0x1594
  .debug_frame   0x00000000       0x30 ./app.o

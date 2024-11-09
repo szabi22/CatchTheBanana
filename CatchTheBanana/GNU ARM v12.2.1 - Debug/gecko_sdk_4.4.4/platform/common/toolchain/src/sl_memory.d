@@ -58,7 +58,7 @@ gecko_sdk_4.4.4/platform/common/toolchain/src/sl_memory.o: \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_pins.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory_region.h \
- C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\config/sl_memory_config.h
+ C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/sl_memory_config.h
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\em_device.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg990f1024.h:
@@ -117,4 +117,4 @@ c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_pins.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_memory_region.h:
-C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\config/sl_memory_config.h:
+C:\Users\kisch\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/sl_memory_config.h:
