@@ -1,13 +1,19 @@
-app.o: ../app.c \
+autogen/sl_simple_button_instances.o: \
+ ../autogen/sl_simple_button_instances.c \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
- ../segmentlcd.h ../segmentlcdconfig.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_lcd.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_simple_button.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_button.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\cmsis_compiler.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\cmsis_gcc.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\em_device.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg990f1024.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm3.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\cmsis_version.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\cmsis_compiler.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\cmsis_gcc.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\mpu_armv7.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\system_efm32gg.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_dma_ch.h \
@@ -57,38 +63,29 @@ app.o: ../app.c \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_uart.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_ports.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_pins.h \
- ../score.h ../display.h ../global_variables.h ../segmentlcd_individual.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
  C:\Users\abel0\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\autogen/sl_component_catalog.h \
  C:\Users\abel0\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/emlib_core_debug_config.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h \
- ../bin.h \
  C:\Users\abel0\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/sl_simple_button_btn0_config.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_simple_button.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_button.h \
- C:\Users\abel0\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/sl_simple_button_btn1_config.h \
- C:\Users\abel0\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/sl_simple_button_config.h
+ C:\Users\abel0\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/sl_simple_button_btn1_config.h
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
-../segmentlcd.h:
-../segmentlcdconfig.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_lcd.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_simple_button.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_button.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\cmsis_compiler.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\cmsis_gcc.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\em_device.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg990f1024.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm3.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\cmsis_version.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\cmsis_compiler.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\cmsis_gcc.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\mpu_armv7.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\system_efm32gg.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_dma_ch.h:
@@ -138,28 +135,12 @@ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_uart.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_ports.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_pins.h:
-../score.h:
-../display.h:
-../global_variables.h:
-../segmentlcd_individual.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
 C:\Users\abel0\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\autogen/sl_component_catalog.h:
 C:\Users\abel0\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/emlib_core_debug_config.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h:
-../bin.h:
 C:\Users\abel0\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/sl_simple_button_btn0_config.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_simple_button.h:
-c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_button.h:
 C:\Users\abel0\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/sl_simple_button_btn1_config.h:
-C:\Users\abel0\SimplicityStudio\v5_workspace\CatchTheBanana\CatchTheBanana\config/sl_simple_button_config.h:

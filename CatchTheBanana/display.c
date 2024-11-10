@@ -8,7 +8,7 @@
 #include "stdio.h"
 #include "score.h"
 
-//-----------------
+
 bool app_lcd_symbol_on = true;
 
 void display_score (void)
@@ -23,20 +23,14 @@ void display_game_over (void)
   SegmentLCD_Write("Done!");
 }
 
-void display_bin (void)
+void display_catchthebanana(int random_position, int bin_position)
 {
-  lower_segment[bin].d=1; //conversion of bin position to display segment type
-  SegmentLCD_LowerSegments(lower_segment);
-}
-//-----------------
-
-void display_banana(int position)
-{
-  if(banana[position]==EMPTY){banana[position]=TOPPER;}
+  if(banana[random_position]==EMPTY){banana[random_position]=TOPPER;}
   for(int i=0;i<7;i++)
     {
       lower_segment[i].raw=banana[i];
     }
+  lower_segment[bin_position].d=1;
   SegmentLCD_LowerSegments(lower_segment);
   sl_udelay_wait(100000*difficulty);
   for(int i=0; i<7;i++)

@@ -75,7 +75,12 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_clocks.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_emu.h \
  c:\users\abel0\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h \
- c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emdrv\gpiointerrupt\inc\gpiointerrupt.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
+ ../autogen/sl_simple_button_instances.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_simple_button.h \
+ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_button.h
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 ../autogen/sl_event_handler.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_chip.h:
@@ -153,3 +158,8 @@ c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_emu.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\hardware\board\inc\sl_board_control.h:
 c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emdrv\gpiointerrupt\inc\gpiointerrupt.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
+../autogen/sl_simple_button_instances.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_simple_button.h:
+c:\users\abel0\simplicitystudio\sdks\gecko_sdk\platform\driver\button\inc\sl_button.h:

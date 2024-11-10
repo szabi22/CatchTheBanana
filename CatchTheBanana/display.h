@@ -7,11 +7,10 @@
 #define BOTTOM 8
 #define EMPTY 0
 
-void display_banana(int);
+void display_catchthebanana(int,int);
 void display_difficulty();
 void display_score();
 void display_game_over();
-void display_bin();
 
 #endif /* DISPLAY_H_ */
 
