@@ -57,7 +57,7 @@ bin.o: ../bin.c \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_ports.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_pins.h \
  ../score.h ../segmentlcd.h ../segmentlcdconfig.h \
- ../segmentlcd_individual.h ../display.h
+ ../segmentlcd_individual.h ../display.h ../global_variables.h
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_lcd.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\em_device.h:
@@ -120,3 +120,4 @@ c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32
 ../segmentlcdconfig.h:
 ../segmentlcd_individual.h:
 ../display.h:
+../global_variables.h:

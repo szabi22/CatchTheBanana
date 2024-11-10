@@ -21,11 +21,11 @@ void calculate_score(int banana[7], int bin, int fallen, int caught)
     for (int i=0; i<7; i++)
       {
 
-        if (banana[i] == 4 && bin != i)
+        if (banana[i] == 8 && bin != i)
           {
             fallen++;
           }
-        if (banana[i] == 4 && bin == i)
+        if (banana[i] == 8 && bin == i)
           {
             caught++;
           }
