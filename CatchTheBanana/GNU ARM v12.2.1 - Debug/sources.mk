@@ -25,4 +25,5 @@ gecko_sdk_4.4.4/platform/common/toolchain/src \
 gecko_sdk_4.4.4/platform/emlib/src \
 gecko_sdk_4.4.4/platform/service/device_init/src \
 gecko_sdk_4.4.4/platform/service/system/src \
+gecko_sdk_4.4.4/platform/service/udelay/src \
 

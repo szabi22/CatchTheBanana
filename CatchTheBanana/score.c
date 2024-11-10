@@ -1,48 +1,41 @@
 #include "em_lcd.h"
-#include <stdio.h>
+#include "stdio.h"
 #include "score.h"
-#include <segmentlcd.h>
+#include "segmentlcd.h"
+#include "segmentlcd_individual.h"
+#include "display.h"
+#include "global_variables.h"
 
-bool app_lcd_symbol_on = true;
 
 
-// Function to update the score on the LCD
-void updateScore(uint8_t fallen, uint8_t caught) {
-    //char scoreStr[6]; // Buffer for score string
-
+void updateScore (void)
+{
     int scoreNr = fallen*100 + caught;
-
-    // Format the score as "FF:CC" (Fallen:Fallen:Caught:Caught)
-    SegmentLCD_Symbol(LCD_SYMBOL_COL10, app_lcd_symbol_on);
-    //snprintf(scoreStr, sizeof(scoreStr), "%02u:%02u", fallen, caught);
-
-    // Display the score on the LCD
-    //SegmentLCD_Write(scoreStr);
-    SegmentLCD_Number(scoreNr);
+    display_score(scoreNr);
 }
 
-int calculate_score(void) {
+void calculate_score (void)
+{
 
-    uint8_t fallen = 0;    // Fallen bananas
-    uint8_t caught = 0;    // Caught bananas
+    for (int i=0; i<7; i++)
+      {
 
-//    while (true) {
-//        // Simulate gameplay update
-        updateScore(fallen, caught);
-//
-//        // Logic for PB0/PB1 for scoring updates
-//        if (/* fallen condition */) {
-//            fallen++;
-//        }
-//        if (/* caught condition */) {
-//            caught++;
-//        }
-//
-//        if (fallen >= 25) {
-//            break; // Game over
-//        }
-//    }
+        if (banana[i] == 8 && bin != i)
+          {
+            fallen++;
+            updateScore();
+          }
+        if (banana[i] == 8 && bin == i)
+          {
+            caught++;
+            updateScore();
+          }
 
-    //SegmentLCD_Write("Done!"); // Display game over
-    return 0;
+        if (fallen + caught >= 25)
+          {
+            break; // Game over
+          }
+      }
+    updateScore();
+    display_game_over();
 }

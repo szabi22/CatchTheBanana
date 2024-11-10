@@ -31,6 +31,7 @@ component:
 - {id: device_init}
 - {id: emlib_lcd}
 - {id: sl_system}
+- {id: udelay}
 define:
 - {name: DEBUG_EFM}
 ui_hints:
