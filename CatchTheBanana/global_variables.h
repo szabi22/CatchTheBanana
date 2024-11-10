@@ -5,7 +5,11 @@
 #include "segmentlcd_individual.h"
 
 // Declare the variable as external
-extern SegmentLCD_LowerCharSegments_TypeDef lowerCharSegments[SEGMENT_LCD_NUM_OF_LOWER_CHARS];
-
+extern volatile SegmentLCD_LowerCharSegments_TypeDef lowerCharSegments[7];
+extern volatile int banana[7];
+extern volatile int bin;
+extern volatile int fallen;
+extern volatile int caught;
+extern volatile int scoreNr;
 
 #endif // GLOBAL_VARIABLES_H

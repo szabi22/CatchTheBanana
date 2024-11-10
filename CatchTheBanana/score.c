@@ -4,18 +4,17 @@
 #include "segmentlcd.h"
 #include "segmentlcd_individual.h"
 #include "display.h"
+#include "global_variables.h"
 
 
 
-void updateScore(int fallen, int caught)
+void updateScore (void)
 {
-    //char scoreStr[6]; // Buffer for score string
-
     int scoreNr = fallen*100 + caught;
     display_score(scoreNr);
 }
 
-void calculate_score(int banana[7], int bin, int fallen, int caught)
+void calculate_score (void)
 {
 
     for (int i=0; i<7; i++)
@@ -24,10 +23,12 @@ void calculate_score(int banana[7], int bin, int fallen, int caught)
         if (banana[i] == 8 && bin != i)
           {
             fallen++;
+            updateScore();
           }
         if (banana[i] == 8 && bin == i)
           {
             caught++;
+            updateScore();
           }
 
         if (fallen + caught >= 25)
@@ -35,6 +36,6 @@ void calculate_score(int banana[7], int bin, int fallen, int caught)
             break; // Game over
           }
       }
-    updateScore(fallen, caught);
+    updateScore();
     display_game_over();
 }

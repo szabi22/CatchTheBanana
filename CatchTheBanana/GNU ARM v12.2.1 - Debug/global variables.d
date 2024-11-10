@@ -1,5 +1,6 @@
-display.o: ../display.c \
+global variables.o: ../global\ variables.c \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
+ ../segmentlcd.h ../segmentlcdconfig.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_lcd.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\em_device.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg990f1024.h \
@@ -56,9 +57,10 @@ display.o: ../display.c \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_uart.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_ports.h \
  c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_pins.h \
- ../score.h ../segmentlcd.h ../segmentlcdconfig.h \
- ../segmentlcd_individual.h ../global_variables.h
+ ../segmentlcd_individual.h
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
+../segmentlcd.h:
+../segmentlcdconfig.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_lcd.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\em_device.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg990f1024.h:
@@ -115,8 +117,4 @@ c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_uart.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_ports.h:
 c:\users\kisch\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efm32gg\include\efm32gg_af_pins.h:
-../score.h:
-../segmentlcd.h:
-../segmentlcdconfig.h:
 ../segmentlcd_individual.h:
-../global_variables.h:

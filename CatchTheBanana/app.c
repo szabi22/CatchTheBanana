@@ -8,26 +8,7 @@
 #include "bin.h"
 #include "global_variables.h"
 
-SegmentLCD_LowerCharSegments_TypeDef lowerCharSegments[SEGMENT_LCD_NUM_OF_LOWER_CHARS];
 
-//lowerCharSegments[bin].d=1; //conversion of bin position to display segment type
-
-//for (i=0; i<7;i++)      ////conversion of bananas position to display segment type
-//  {
-//    switch {
-//      case: banana[i]==256;
-//      lowerCharSegments[i].b = 1;
-//
-//
-//    }
-//
-//  }
-
-volatile int banana[7]={};
-volatile int bin = 0;
-int fallen = 0;
-int caught = 0;
-int scoreNr = 0000;
 
 void app_init(void)
 {
@@ -41,10 +22,11 @@ void app_init(void)
  ******************************************************************************/
 void app_process_action(void)
 {
-  display_score(scoreNr);
-  bin_default(bin);
+  //calculate_score();
+  display_score();
+  display_bin();
 
-  bin_default_test();
+  //bin_default_test();
   //calculate_score(banana[7], bin, fallen, caught);
   //bin_move_left(lowerCharSegments);
 
