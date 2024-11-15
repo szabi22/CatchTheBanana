@@ -6,23 +6,21 @@
 #include "display.h"
 #include "global_variables.h"
 
-
 //Declaration of functions related to bin
-
-void bin_move_right (void)
+void bin_move_right (void)  //Move the bin to the right
 {
-  lower_segment[bin].d = 0;
-  if(bin<6)bin++;
-  lower_segment[bin].d = 1;
+  lower_segment[bin].d = 0; //Turn off the previous segment
+  if (bin < 6)  //If the bin is in the boundaries of the screen
+    bin++;  //Shift the bin to the right
+  lower_segment[bin].d = 1; //Turn on the current segment
 
-  //SegmentLCD_LowerSegments(lower_segment);
 }
 
-void bin_move_left (void)
+void bin_move_left (void) //Move the bin to the left
 {
-  lower_segment[bin].d = 0;
-  if(bin>0)bin--;
-  lower_segment[bin].d = 1;
+  lower_segment[bin].d = 0; //Turn off the previous segment
+  if (bin > 0)  //If the bin is in the boundaries of the screen
+    bin--;  //Shift the bin to the left
+  lower_segment[bin].d = 1; //Turn on the current segment
 
-  //SegmentLCD_LowerSegments(lower_segment);
 }

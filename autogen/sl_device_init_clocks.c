@@ -31,11 +31,12 @@
 
 #include "em_cmu.h"
 
-sl_status_t sl_device_init_clocks(void)
+sl_status_t
+sl_device_init_clocks (void)
 {
   CMU_CLOCK_SELECT_SET(HF, HFXO);
 
-  CMU_ClockEnable(cmuClock_HFLE, true);
+  CMU_ClockEnable (cmuClock_HFLE, true);
   CMU_CLOCK_SELECT_SET(LFA, LFXO);
   CMU_CLOCK_SELECT_SET(LFB, LFXO);
 #if defined(_CMU_LFCCLKSEL_MASK)

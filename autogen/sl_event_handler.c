@@ -11,50 +11,59 @@
 #include "gpiointerrupt.h"
 #include "sl_simple_button_instances.h"
 
-void sl_platform_init(void)
+void
+sl_platform_init (void)
 {
-  CHIP_Init();
-  sl_device_init_nvic();
-  sl_board_preinit();
-  sl_device_init_lfxo();
-  sl_device_init_hfxo();
-  sl_device_init_clocks();
-  sl_device_init_emu();
-  sl_board_init();
+  CHIP_Init ();
+  sl_device_init_nvic ();
+  sl_board_preinit ();
+  sl_device_init_lfxo ();
+  sl_device_init_hfxo ();
+  sl_device_init_clocks ();
+  sl_device_init_emu ();
+  sl_board_init ();
 }
 
-void sl_driver_init(void)
+void
+sl_driver_init (void)
 {
-  GPIOINT_Init();
-  sl_simple_button_init_instances();
+  GPIOINT_Init ();
+  sl_simple_button_init_instances ();
 }
 
-void sl_service_init(void)
+void
+sl_service_init (void)
 {
-  sl_board_configure_vcom();
+  sl_board_configure_vcom ();
 }
 
-void sl_stack_init(void)
-{
-}
-
-void sl_internal_app_init(void)
-{
-}
-
-void sl_platform_process_action(void)
+void
+sl_stack_init (void)
 {
 }
 
-void sl_service_process_action(void)
+void
+sl_internal_app_init (void)
 {
 }
 
-void sl_stack_process_action(void)
+void
+sl_platform_process_action (void)
 {
 }
 
-void sl_internal_app_process_action(void)
+void
+sl_service_process_action (void)
+{
+}
+
+void
+sl_stack_process_action (void)
+{
+}
+
+void
+sl_internal_app_process_action (void)
 {
 }
 

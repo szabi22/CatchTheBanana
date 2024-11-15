@@ -1,10 +1,7 @@
-void bin_move_right (void);
-void bin_move_left (void);
+#ifndef BIN_H_
+#define BIN_H_
 
+void bin_move_right (void); //Move bin to the right
+void bin_move_left (void);  //Move bin to the left
 
-//void bin_move_right (uint8_t);
-//void bin_move_left (uint8_t);
-
-
-//void bin_default_test();
-//void _display_bin_test();
+#endif /* BIN_H_ */

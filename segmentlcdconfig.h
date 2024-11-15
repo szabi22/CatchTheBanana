@@ -38,7 +38,8 @@ extern "C" {
 #endif
 
 /** Range of symbols available on display */
-typedef enum {
+typedef enum
+{
   LCD_SYMBOL_GECKO,
   LCD_SYMBOL_ANT,
   LCD_SYMBOL_PAD0,

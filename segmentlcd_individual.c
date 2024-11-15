@@ -132,13 +132,14 @@
  *  TYPEDEFS
  * ------------------------------------------------------------------------- */
 
- /**************************************************************************//**
-  * @brief Defines segment COM and BIT fields numeric display
-  *****************************************************************************/
- typedef struct {
-   uint8_t com[7]; /**< LCD COM line (for multiplexing) */
-   uint8_t bit[7]; /**< LCD bit number */
- } Upper_TypeDef;
+/**************************************************************************//**
+ * @brief Defines segment COM and BIT fields numeric display
+ *****************************************************************************/
+typedef struct
+{
+  uint8_t com[7]; /**< LCD COM line (for multiplexing) */
+  uint8_t bit[7]; /**< LCD bit number */
+} Upper_TypeDef;
 
 /**************************************************************************//**
  * @brief
@@ -162,7 +163,8 @@
  * Segment 1D for Display
  * Location COM 3, BIT 0
  *****************************************************************************/
-typedef struct {
+typedef struct
+{
   uint8_t com[14]; /**< LCD COM line (for multiplexing) */
   uint8_t bit[14]; /**< LCD bit number */
 } Lower_TypeDef;
@@ -172,73 +174,83 @@ typedef struct {
  * ------------------------------------------------------------------------- */
 
 /**< Numbers on display */
-Upper_TypeDef  Number[SEGMENT_LCD_NUM_OF_UPPER_CHARS] = SEGMENT_LCD_UPPER_DISPLAY_DEF;
+Upper_TypeDef Number[SEGMENT_LCD_NUM_OF_UPPER_CHARS] =
+SEGMENT_LCD_UPPER_DISPLAY_DEF;
 /**< Text on display */
-Lower_TypeDef    Text[SEGMENT_LCD_NUM_OF_LOWER_CHARS] = SEGMENT_LCD_LOWER_DISPLAY_DEF;
+Lower_TypeDef Text[SEGMENT_LCD_NUM_OF_LOWER_CHARS] =
+SEGMENT_LCD_LOWER_DISPLAY_DEF;
 
 /* ----------------------------------------------------------------------------
  *  FUNCTION DEFINITIONS
  * ------------------------------------------------------------------------- */
 
-void SegmentLCD_UpperSegments(SegmentLCD_UpperCharSegments_TypeDef upperCharSegments[SEGMENT_LCD_NUM_OF_UPPER_CHARS])
+void
+SegmentLCD_UpperSegments (
+    SegmentLCD_UpperCharSegments_TypeDef upperCharSegments[SEGMENT_LCD_NUM_OF_UPPER_CHARS])
 {
-    uint32_t com, bit;
-    uint8_t s, c;
-    /* If an update is in progress we must block, or there might be tearing */
-    LCD_SyncBusyDelay(0xFFFFFFFF);
+  uint32_t com, bit;
+  uint8_t s, c;
+  /* If an update is in progress we must block, or there might be tearing */
+  LCD_SyncBusyDelay (0xFFFFFFFF);
 
-    /* Freeze LCD to avoid partial updates */
-    LCD_FreezeEnable(true);
+  /* Freeze LCD to avoid partial updates */
+  LCD_FreezeEnable (true);
 
-    for (c = 0; c < SEGMENT_LCD_NUM_OF_UPPER_CHARS; c++)
+  for (c = 0; c < SEGMENT_LCD_NUM_OF_UPPER_CHARS; c++)
     {
-       for (s = 0; s < 7; s++)
-          {
-            bit = Number[c].bit[s];
-            com = Number[c].com[s];
+      for (s = 0; s < 7; s++)
+        {
+          bit = Number[c].bit[s];
+          com = Number[c].com[s];
 
-             if (upperCharSegments[c].raw & (1 << s))
-             {
-                /* Turn on segment */
-                LCD_SegmentSet(com, bit, true);
-             } else {
-                /* Turn off segment */
-                LCD_SegmentSet(com, bit, false);
-             }
-          }
+          if (upperCharSegments[c].raw & (1 << s))
+            {
+              /* Turn on segment */
+              LCD_SegmentSet (com, bit, true);
+            }
+          else
+            {
+              /* Turn off segment */
+              LCD_SegmentSet (com, bit, false);
+            }
+        }
     }
 
-    LCD_FreezeEnable(false);
+  LCD_FreezeEnable (false);
 }
 
-void SegmentLCD_LowerSegments(SegmentLCD_LowerCharSegments_TypeDef lowerCharSegments[SEGMENT_LCD_NUM_OF_LOWER_CHARS])
+void
+SegmentLCD_LowerSegments (
+    SegmentLCD_LowerCharSegments_TypeDef lowerCharSegments[SEGMENT_LCD_NUM_OF_LOWER_CHARS])
 {
-    uint32_t com, bit;
-    uint8_t s, c;
-    /* If an update is in progress we must block, or there might be tearing */
-    LCD_SyncBusyDelay(0xFFFFFFFF);
+  uint32_t com, bit;
+  uint8_t s, c;
+  /* If an update is in progress we must block, or there might be tearing */
+  LCD_SyncBusyDelay (0xFFFFFFFF);
 
-    /* Freeze LCD to avoid partial updates */
-    LCD_FreezeEnable(true);
+  /* Freeze LCD to avoid partial updates */
+  LCD_FreezeEnable (true);
 
-    for (c = 0; c < SEGMENT_LCD_NUM_OF_LOWER_CHARS; c++)
+  for (c = 0; c < SEGMENT_LCD_NUM_OF_LOWER_CHARS; c++)
     {
-       for (s = 0; s < 14; s++)
-          {
-            bit = Text[c].bit[s];
-            com = Text[c].com[s];
+      for (s = 0; s < 14; s++)
+        {
+          bit = Text[c].bit[s];
+          com = Text[c].com[s];
 
-             if (lowerCharSegments[c].raw & (1 << s))
-             {
-                /* Turn on segment */
-                LCD_SegmentSet(com, bit, true);
-             } else {
-                /* Turn off segment */
-                LCD_SegmentSet(com, bit, false);
-             }
-          }
+          if (lowerCharSegments[c].raw & (1 << s))
+            {
+              /* Turn on segment */
+              LCD_SegmentSet (com, bit, true);
+            }
+          else
+            {
+              /* Turn off segment */
+              LCD_SegmentSet (com, bit, false);
+            }
+        }
     }
 
-    LCD_FreezeEnable(false);
+  LCD_FreezeEnable (false);
 }
 
